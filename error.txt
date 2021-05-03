@@ -1,0 +1,92 @@
+ERROR: Resource: 'res://car_select.tscn' is already being loaded. Cyclic reference?
+   At: core/io/resource_loader.cpp:349
+ERROR: Resource: 'res://car_select.tscn' is already being loaded. Cyclic reference?
+   At: core/io/resource_loader.cpp:349
+WARNING: _parse_ext_resource: Couldn't load external resource: res://car_select.tscn
+     At: scene/resources/resource_format_text.cpp:175
+ERROR: instance: Condition "!sdata.is_valid()" is true. Returned: __null
+   At: scene/resources/packed_scene.cpp:140
+ERROR: instance: Condition "!node" is true. Returned: __null
+   At: scene/resources/packed_scene.cpp:142
+ERROR: instance: Condition "!node" is true. Returned: __null
+   At: scene/resources/packed_scene.cpp:142
+Running: C:/Users/Usuario/OneDrive/Documentos/Godot_v3.3-stable_win64.exe --path C:/Users/Usuario/OneDrive/Documentos/juegos --remote-debug 127.0.0.1:6007 --allow_focus_steal_pid 11964 --position 171,84
+Godot Engine v3.3.stable.official - https://godotengine.org
+OpenGL ES 2.0 Renderer: Intel(R) UHD Graphics 620
+OpenGL ES Batching: ON
+
+ERROR: Resource: 'res://car_select.tscn' is already being loaded. Cyclic reference?
+   At: core/io/resource_loader.cpp:349
+ERROR: poll: res://car_base.tscn:8 - Parse Error: [ext_resource] referenced nonexistent resource at: res://car_select.tscn
+   At: scene/resources/resource_format_text.cpp:440
+ERROR: Failed to load resource 'res://car_base.tscn'.
+   At: core/io/resource_loader.cpp:208
+ERROR: Failed loading resource: res://car_base.tscn. Make sure resources have been imported by opening the project in the editor at least once.
+   At: core/io/resource_loader.cpp:278
+ERROR: poll: res://car_select.tscn:4 - Parse Error: [ext_resource] referenced nonexistent resource at: res://car_base.tscn
+   At: scene/resources/resource_format_text.cpp:440
+ERROR: Failed to load resource 'res://car_select.tscn'.
+   At: core/io/resource_loader.cpp:208
+ERROR: Failed loading resource: res://car_select.tscn. Make sure resources have been imported by opening the project in the editor at least once.
+   At: core/io/resource_loader.cpp:278
+ERROR: Failed loading scene: res://car_select.tscn
+   At: main/main.cpp:1961
+ERROR: ~List: Condition "_first != __null" is true.
+   At: ./core/self_list.h:112
+ERROR: ~List: Condition "_first != __null" is true.
+   At: ./core/self_list.h:112
+WARNING: cleanup: ObjectDB instances leaked at exit (run with --verbose for details).
+     At: core/object.cpp:2132
+ERROR: Resource: 'res://car_base.tscn' is already being loaded. Cyclic reference?
+   At: core/io/resource_loader.cpp:349
+ERROR: Resource: 'res://car_base.tscn' is already being loaded. Cyclic reference?
+   At: core/io/resource_loader.cpp:349
+WARNING: _parse_ext_resource: Couldn't load external resource: res://car_base.tscn
+     At: scene/resources/resource_format_text.cpp:175
+ERROR: instance: Condition "!sdata.is_valid()" is true. Returned: __null
+   At: scene/resources/packed_scene.cpp:140
+ERROR: instance: Condition "!node" is true. Returned: __null
+   At: scene/resources/packed_scene.cpp:142
+ERROR: instance: Condition "!node" is true. Returned: __null
+   At: scene/resources/packed_scene.cpp:142
+ERROR: Resource: 'res://car_select.tscn' is already being loaded. Cyclic reference?
+   At: core/io/resource_loader.cpp:349
+ERROR: Resource: 'res://car_select.tscn' is already being loaded. Cyclic reference?
+   At: core/io/resource_loader.cpp:349
+WARNING: _parse_ext_resource: Couldn't load external resource: res://car_select.tscn
+     At: scene/resources/resource_format_text.cpp:175
+ERROR: instance: Condition "!sdata.is_valid()" is true. Returned: __null
+   At: scene/resources/packed_scene.cpp:140
+ERROR: instance: Condition "!node" is true. Returned: __null
+   At: scene/resources/packed_scene.cpp:142
+ERROR: instance: Condition "!node" is true. Returned: __null
+   At: scene/resources/packed_scene.cpp:142
+Running: C:/Users/Usuario/OneDrive/Documentos/Godot_v3.3-stable_win64.exe --path C:/Users/Usuario/OneDrive/Documentos/juegos --remote-debug 127.0.0.1:6007 --allow_focus_steal_pid 11964 --position 171,84
+Godot Engine v3.3.stable.official - https://godotengine.org
+OpenGL ES 2.0 Renderer: Intel(R) UHD Graphics 620
+OpenGL ES Batching: ON
+
+ERROR: Resource: 'res://car_select.tscn' is already being loaded. Cyclic reference?
+   At: core/io/resource_loader.cpp:349
+ERROR: poll: res://car_base.tscn:8 - Parse Error: [ext_resource] referenced nonexistent resource at: res://car_select.tscn
+   At: scene/resources/resource_format_text.cpp:440
+ERROR: Failed to load resource 'res://car_base.tscn'.
+   At: core/io/resource_loader.cpp:208
+ERROR: Failed loading resource: res://car_base.tscn. Make sure resources have been imported by opening the project in the editor at least once.
+   At: core/io/resource_loader.cpp:278
+ERROR: poll: res://car_select.tscn:4 - Parse Error: [ext_resource] referenced nonexistent resource at: res://car_base.tscn
+   At: scene/resources/resource_format_text.cpp:440
+ERROR: Failed to load resource 'res://car_select.tscn'.
+   At: core/io/resource_loader.cpp:208
+ERROR: Failed loading resource: res://car_select.tscn. Make sure resources have been imported by opening the project in the editor at least once.
+   At: core/io/resource_loader.cpp:278
+ERROR: Failed loading scene: res://car_select.tscn
+   At: main/main.cpp:1961
+ERROR: ~List: Condition "_first != __null" is true.
+   At: ./core/self_list.h:112
+ERROR: ~List: Condition "_first != __null" is true.
+   At: ./core/self_list.h:112
+WARNING: cleanup: ObjectDB instances leaked at exit (run with --verbose for details).
+     At: core/object.cpp:2132
+ERROR: clear: Resources still in use at exit (run with --verbose for details).
+   At: core/resource.cpp:450
