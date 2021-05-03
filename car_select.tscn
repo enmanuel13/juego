@@ -1,0 +1,86 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://car_select.gd" type="Script" id=1]
+[ext_resource path="res://car_base.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Images/descarga.jpg" type="Texture" id=3]
+[ext_resource path="res://Images/sticker-png-american-truck-simulator-euro-truck-simulator-2-car-video-game-simulation-game-freight-transport-truck-mode-of-transport-vehicle.png" type="Texture" id=4]
+
+[sub_resource type="StyleBoxTexture" id=1]
+
+[sub_resource type="StyleBoxTexture" id=2]
+
+[sub_resource type="StyleBoxTexture" id=3]
+
+[sub_resource type="StyleBoxTexture" id=4]
+
+[sub_resource type="StyleBoxTexture" id=5]
+
+[sub_resource type="AtlasTexture" id=6]
+region = Rect2( 10, 20, 30, 40 )
+margin = Rect2( 50, 80, 90, 100 )
+filter_clip = true
+
+[node name="CarSelect" type="Control"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -512.0
+margin_top = -300.0
+margin_right = 512.0
+margin_bottom = 300.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+script = ExtResource( 1 )
+__meta__ = {
+"__editor_plugin_screen__": "2D",
+"_edit_use_anchors_": false
+}
+
+[node name="MiniVan" type="Button" parent="."]
+margin_left = -576.0
+margin_top = -8.0
+margin_right = 326.0
+margin_bottom = 495.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/disabled = SubResource( 4 )
+custom_styles/normal = SubResource( 5 )
+disabled = true
+icon = SubResource( 6 )
+flat = true
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TrailerTruck" type="Button" parent="."]
+margin_left = 232.85
+margin_top = -6.1748
+margin_right = 1134.85
+margin_bottom = 500.825
+size_flags_horizontal = 2
+size_flags_vertical = 2
+icon = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TowTruck" type="Button" parent="."]
+margin_left = 1132.85
+margin_top = 2.87396
+margin_right = 1799.85
+margin_bottom = 487.874
+size_flags_horizontal = 2
+size_flags_vertical = 2
+icon = ExtResource( 3 )
+
+[node name="CarBase" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.121938, -0.188415, 0.183905 )
+
+[connection signal="pressed" from="MiniVan" to="." method="_on_MiniVan_pressed"]
+[connection signal="pressed" from="TrailerTruck" to="." method="_on_TrailerTruck_pressed"]
+[connection signal="pressed" from="TowTruck" to="." method="_on_TowTruck_pressed"]
